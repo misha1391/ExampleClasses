@@ -63,10 +63,22 @@
         }
         public void Deposit(int amount)
         {
+            if (amount < 0)
+            {
+                Console.WriteLine("Количество для пополнения не может быть меньше 0");
+            }
             SetBalance(GetBalance() + amount);
         }
         public void Withdraw(int amount)
         {
+            if (GetBalance() < amount)
+            {
+                Console.WriteLine("Вы не можете списать больше, чем имеете");
+            }
+            if (amount <= 0)
+            {
+                Console.WriteLine("Количество для списания не может быть меньше 0");
+            }
             SetBalance(GetBalance() - amount);
         }
         public void ShowInfo()
@@ -101,22 +113,28 @@
         }
         static void Main(string[] args)
         {
-            PrintInfo("misha", 16);
-            PrintInfo(ConToString("Python", " is best"), 0);
-            var elem = SquareAllElements([1, 2, 3, 4]);
-            foreach(var i in elem)
-            {
-                Console.WriteLine(i);
-            }
-            Person per1 = new Person("Дэбил", 24);
-            per1.SayHello();
+            // PrintInfo("misha", 16);
+            // PrintInfo(ConToString("Python", " is best"), 0);
+            // var elem = SquareAllElements([1, 2, 3, 4]);
+            // foreach(var i in elem)
+            // {
+            //     Console.WriteLine(i);
+            // }
+            // Person per1 = new Person("Дэбил", 24);
+            // per1.SayHello();
             
-            NewPerson per2 = new NewPerson("Дэбилыч", 67);
+            // NewPerson per2 = new NewPerson("Дэбилыч", 67);
             
-            Console.WriteLine(per2.Age);
-            per2.Age = 20;
+            // Console.WriteLine(per2.Age);
+            // per2.Age = 20;
 
-            per2.SayHello();
+            // per2.SayHello();
+            BankAccount ban = new BankAccount("misha", 1000);
+            ban.ShowInfo();
+            ban.Deposit(500);
+            ban.ShowInfo();
+            ban.Withdraw(1000);
+            ban.ShowInfo();
         }
     }
 }
