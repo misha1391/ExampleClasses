@@ -48,6 +48,32 @@
             Console.WriteLine($"Дароу, меня обзывают {name}, мне {age} годиков");
         }
     }
+    class BankAccount
+    {
+        private string owner;
+        private int balance;
+        public void SetOwner(string owner) { this.owner = owner; }
+        public void SetBalance(int balance) { this.balance = balance; }
+        public string GetOwner() { return owner; }
+        public int GetBalance() { return balance; }
+        public BankAccount(string owner, int balance)
+        {
+            this.owner = owner;
+            this.balance = balance;
+        }
+        public void Deposit(int amount)
+        {
+            SetBalance(GetBalance() + amount);
+        }
+        public void Withdraw(int amount)
+        {
+            SetBalance(GetBalance() - amount);
+        }
+        public void ShowInfo()
+        {
+            Console.WriteLine($"Owner - {GetOwner()}, balance - {GetBalance()}");
+        }
+    }
     class Program
     {
         static void PrintInfo(string name, int age)
