@@ -1,0 +1,14 @@
+C:\Users\misha\OneDrive\Рабочий стол\TOP\С#\ExampleClasses\bin\Debug\net10.0\ExampleClasses.exe
+C:\Users\misha\OneDrive\Рабочий стол\TOP\С#\ExampleClasses\bin\Debug\net10.0\ExampleClasses.deps.json
+C:\Users\misha\OneDrive\Рабочий стол\TOP\С#\ExampleClasses\bin\Debug\net10.0\ExampleClasses.runtimeconfig.json
+C:\Users\misha\OneDrive\Рабочий стол\TOP\С#\ExampleClasses\bin\Debug\net10.0\ExampleClasses.dll
+C:\Users\misha\OneDrive\Рабочий стол\TOP\С#\ExampleClasses\bin\Debug\net10.0\ExampleClasses.pdb
+C:\Users\misha\OneDrive\Рабочий стол\TOP\С#\ExampleClasses\obj\Debug\net10.0\ExampleClasses.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\misha\OneDrive\Рабочий стол\TOP\С#\ExampleClasses\obj\Debug\net10.0\ExampleClasses.AssemblyInfoInputs.cache
+C:\Users\misha\OneDrive\Рабочий стол\TOP\С#\ExampleClasses\obj\Debug\net10.0\ExampleClasses.AssemblyInfo.cs
+C:\Users\misha\OneDrive\Рабочий стол\TOP\С#\ExampleClasses\obj\Debug\net10.0\ExampleClasses.csproj.CoreCompileInputs.cache
+C:\Users\misha\OneDrive\Рабочий стол\TOP\С#\ExampleClasses\obj\Debug\net10.0\ExampleClasses.dll
+C:\Users\misha\OneDrive\Рабочий стол\TOP\С#\ExampleClasses\obj\Debug\net10.0\refint\ExampleClasses.dll
+C:\Users\misha\OneDrive\Рабочий стол\TOP\С#\ExampleClasses\obj\Debug\net10.0\ExampleClasses.pdb
+C:\Users\misha\OneDrive\Рабочий стол\TOP\С#\ExampleClasses\obj\Debug\net10.0\ExampleClasses.genruntimeconfig.cache
+C:\Users\misha\OneDrive\Рабочий стол\TOP\С#\ExampleClasses\obj\Debug\net10.0\ref\ExampleClasses.dll
